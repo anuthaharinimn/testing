@@ -43,7 +43,7 @@ test:
     - . venv/bin/activate && coverage report
     - . venv/bin/activate && coverage html
     - mkdir -p /tmp/artifacts
-    - mv htmlcov /tmp/artifacts
+   ## - mv htmlcov /tmp/artifacts
 
   post:
     - git clean -dxf 
